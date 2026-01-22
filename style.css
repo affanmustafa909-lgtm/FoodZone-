@@ -1,0 +1,59 @@
+ .navbar {
+      background: #ff5722;
+    }
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+      font-weight: 500;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url('./images/backgroud\ dish.jfif') center/cover no-repeat;
+      height: 100vh;
+      color: #fff;
+      display: flex;
+      align-items: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    .btn-main {
+      background: #ff5722;
+      border: none;
+      color: #fff;
+      padding: 12px 30px;
+      border-radius: 30px;
+    }
+
+    .btn-main:hover {
+      background: #e64a19;
+    }
+
+    /* Section Title */
+    .section-title {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    /* Food Cards */
+    .food-card {
+      border: none;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .food-card:hover {
+      transform: translateY(-10px);
+    }
+
+    /* Footer */
+    footer {
+      background: #222;
+      color: #ccc;
+      padding: 20px 0;
+    }
